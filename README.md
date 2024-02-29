@@ -11,6 +11,10 @@ Currently, two official plugins are available:
 
 
 
+![Image 1](/img1.png)
+![Image 1](/img2.png)
+
+
 ## NewsApp
 
 NewsApp is a React application that allows users to browse and read the latest news articles from various categories and countries. It utilizes the NewsAPI to fetch news data and provides a user-friendly interface to view news articles.
