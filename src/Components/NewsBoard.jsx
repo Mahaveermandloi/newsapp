@@ -13,7 +13,6 @@ const NewsBoard = ({ category, country }) => {
 
       try {
         let url = "";
-      
 
         if (country) {
           category = null;
@@ -26,7 +25,6 @@ const NewsBoard = ({ category, country }) => {
           // If only category is selected or neither is selected
           url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=e1cc7ca5a45043ec87132b6286f12e24`;
         }
-        
 
         const response = await fetch(url);
         const data = await response.json();
